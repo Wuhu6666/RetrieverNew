@@ -15,6 +15,7 @@ import {
     DrawerItemList,
 } from '@react-navigation/drawer';
 import Logout from '../SignInScreen/SignInScreen';
+
 const Drawer = createDrawerNavigator()
 function CustomDrawerContent(props) {
     return (
@@ -81,7 +82,7 @@ const HomeScreen = () => {
                         onPress={onSearchPressed}
                     />
                 </View>
-                <View style={{flexDirection: "row", backgroundColor: '#E7EAF4', justifyContent: 'center' }}>
+                <View style={{ flexDirection: "row", backgroundColor: '#E7EAF4', justifyContent: 'center' }}>
                     <View style={[styles.btn00]}>
                         <CustomButton
                             text="FOUND"
@@ -128,7 +129,7 @@ const HomeScreen = () => {
                     </View>
 
                 </ScrollView>
-                <View style={{ flexDirection: "row",justifyContent: 'center' }}>
+                <View style={{ flexDirection: "row", justifyContent: 'center' }}>
                     <View style={[styles.btn01]}>
                         <CustomButton
                             text="Feed"
